@@ -4,7 +4,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div  style={{marginTop:"100px"}} >
+    <div  style={{marginTop:"100px"}} className='ms-3'>
         
         <p>Diverse Recipe Collection: From quick weekday dinners to indulgent desserts, our recipes cater to every occasion and taste.</p>
 
