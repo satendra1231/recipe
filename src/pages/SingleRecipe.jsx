@@ -18,7 +18,7 @@ const SingleRecipe = () => {
             <h3>Meal Type: {location.state.recipe.mealType}</h3>
 
             <div className="row d-flex  p-2">
-             <div className="col-md-6 ">
+             <div className="col-md-6 mt-2 ">
                   <div className="row d-flex gap-2 ">
                   <div className="col-5 bg-warning">
                 <p>{location.state.recipe.totalNutrients.CA.label}</p>
@@ -30,7 +30,7 @@ const SingleRecipe = () => {
               </div>
                   </div>
              </div>
-              <div className="col-md-6">
+              <div className="col-md-6 mt-2">
             <div className="row d-flex gap-2">
             <div className="col-5 bg-warning">
                 <p>{location.state.recipe.totalNutrients.SUGAR.label}</p>
