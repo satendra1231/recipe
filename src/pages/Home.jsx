@@ -29,7 +29,7 @@ const Home = () => {
 
   
   return (
-    <div className='row d-flex justify-content-center gap-3'>
+    <div style={{marginTop:"100px"}} className='row d-flex justify-content-center gap-3'>
         {/* <Navbar/> */}
       
      <div>
