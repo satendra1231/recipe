@@ -7,7 +7,7 @@ const SingleRecipe = () => {
     console.log(location.state.recipe)
     console.log(location.state.recipe.healthLabels)
   return (
-    <div>
+    <div className='ms-2'>
       
        <div className='row'>
             <div className="col-md-6 d-flex justify-content-center">
