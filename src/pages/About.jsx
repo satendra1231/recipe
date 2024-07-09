@@ -5,8 +5,12 @@ import React from 'react'
 const About = () => {
   return (
     <div>
-        {/* <Navbar/> */}
-      <h2>About Page</h2>
+        
+        <p>Diverse Recipe Collection: From quick weekday dinners to indulgent desserts, our recipes cater to every occasion and taste.</p>
+
+        <p>Expert Tips and Techniques: We love sharing our cooking tips and tricks to help you become a more confident home chef.</p>
+
+        <p>Seasonal Inspiration: We believe in cooking with the seasons, so you'll find recipes that celebrate the best ingredients each season has to offer.</p>
     </div>
   )
 }
