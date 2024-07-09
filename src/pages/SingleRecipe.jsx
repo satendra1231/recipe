@@ -17,22 +17,30 @@ const SingleRecipe = () => {
             <h2>Title: {location.state.recipe.label}</h2>
             <h3>Meal Type: {location.state.recipe.mealType}</h3>
 
-            <div className="row d-flex gap-2 p-2">
-              <div className="col-sm-2 bg-warning">
+            <div className="row d-flex  p-2">
+             <div className="col-md-6">
+                  <div className="row">
+                  <div className="col-6 bg-warning">
                 <p>{location.state.recipe.totalNutrients.CA.label}</p>
                 <p>{Math.ceil(location.state.recipe.totalNutrients.CA.quantity)} mg</p>
               </div>
-              <div className="col-sm-2 bg-warning">
+              <div className="col-6 bg-warning">
                 <p>{location.state.recipe.totalNutrients.FAT.label}</p>
                 <p>{Math.ceil(location.state.recipe.totalNutrients.FAT.quantity)} mg</p>
               </div>
-              <div className="col-sm-2 bg-warning">
+                  </div>
+             </div>
+              <div className="col-md-6">
+            <div className="row">
+            <div className="col-6 bg-warning">
                 <p>{location.state.recipe.totalNutrients.SUGAR.label}</p>
                 <p>{Math.ceil(location.state.recipe.totalNutrients.SUGAR.quantity)} mg</p>
               </div>
-              <div className="col-sm-2 bg-warning">
+              <div className="col-6 bg-warning">
                 <p>{location.state.recipe.totalNutrients.PROCNT.label}</p>
                 <p>{Math.ceil(location.state.recipe.totalNutrients.PROCNT.quantity)} mg</p>
+              </div>
+            </div>
               </div>
             </div>
             <Link  to={location.state.recipe.url} className='btn btn-success mt-3'>How to make recipe</Link>
