@@ -24,7 +24,7 @@ const SingleRecipe = () => {
                 <p>{location.state.recipe.totalNutrients.CA.label}</p>
                 <p>{Math.ceil(location.state.recipe.totalNutrients.CA.quantity)} mg</p>
               </div>
-              <div className="col-6  bg-danger">
+              <div className="col-6  bg-warning">
                 <p>{location.state.recipe.totalNutrients.FAT.label}</p>
                 <p>{Math.ceil(location.state.recipe.totalNutrients.FAT.quantity)} mg</p>
               </div>
