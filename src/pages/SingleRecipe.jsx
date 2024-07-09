@@ -7,7 +7,7 @@ const SingleRecipe = () => {
     console.log(location.state.recipe)
     console.log(location.state.recipe.healthLabels)
   return (
-    <div className='ms-2'>
+    <div style={{marginTop:"100px"}}  >
       
        <div className='row'>
             <div className="col-md-6 d-flex justify-content-center">
@@ -48,8 +48,8 @@ const SingleRecipe = () => {
             </div>
 
        </div>
-      <div className="row  mt-5 d-flex justify-content-center align-item-center">
-      <div className="col-md-5 d-flex justify-content-center flex-column">
+      <div className="row  mt-5 d-flex justify-content-center align-item-center ms-2">
+      <div className="col-md-5 d-flex justify-content-center flex-column ms-2">
         <h2>Health Label</h2>
         <ul>
         {location.state.recipe.healthLabels.map((obj,index)=>{
