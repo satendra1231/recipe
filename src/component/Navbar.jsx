@@ -5,9 +5,9 @@ const Navbar = () => {
 
   return (
 
-    <div>
+    <div >
          
-    <nav className="navbar navbar-expand-lg bg-warning mb-4">
+    <nav className="navbar navbar-expand-lg bg-warning mb-4 navbar-fixed-top">
    
   <div className="container-fluid">
 
