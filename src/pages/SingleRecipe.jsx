@@ -18,21 +18,21 @@ const SingleRecipe = () => {
             <h3>Meal Type: {location.state.recipe.mealType}</h3>
 
             <div className="row d-flex  p-2">
-             <div className="col-md-6">
-                  <div className="row">
-                  <div className="col-6 bg-warning">
+             <div className="col-md-6 ">
+                  <div className="row d-flex gap-2 ">
+                  <div className="col-5 bg-warning">
                 <p>{location.state.recipe.totalNutrients.CA.label}</p>
                 <p>{Math.ceil(location.state.recipe.totalNutrients.CA.quantity)} mg</p>
               </div>
-              <div className="col-6 bg-warning">
+              <div className="col-6  bg-danger">
                 <p>{location.state.recipe.totalNutrients.FAT.label}</p>
                 <p>{Math.ceil(location.state.recipe.totalNutrients.FAT.quantity)} mg</p>
               </div>
                   </div>
              </div>
               <div className="col-md-6">
-            <div className="row">
-            <div className="col-6 bg-warning">
+            <div className="row d-flex gap-2">
+            <div className="col-5 bg-warning">
                 <p>{location.state.recipe.totalNutrients.SUGAR.label}</p>
                 <p>{Math.ceil(location.state.recipe.totalNutrients.SUGAR.quantity)} mg</p>
               </div>
