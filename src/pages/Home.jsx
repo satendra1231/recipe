@@ -34,7 +34,7 @@ const Home = () => {
       
      <div>
      <label htmlFor="" className='d-flex justify-content-center gap-3'>
-        <input ref={inputRef} className='col-5 rounded-3' type="text" name="" id=""  placeholder='Search'/>
+        <input ref={inputRef} className='col-md-4 rounded-3' type="text" name="" id=""  placeholder='Search'/>
         <button onClick={handlesearch} className='btn btn-success rounded-2 '>Search</button>
       </label>
      </div>
