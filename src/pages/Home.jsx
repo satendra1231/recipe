@@ -41,10 +41,10 @@ const Home = () => {
       {
 
         allfood.map((ele)=>{
-          return <div key={ele.recipe.url} className="card rounded-4 " style={{width: '18rem'}}>
-  <img src={ele.recipe.image} className="card-img-top" alt="..." />
+          return <div key={ele.recipe.url} className="card rounded-5 bg-danger p-1" style={{width: '18rem'}}>
+  <img src={ele.recipe.image} className="card-img-top rounded-5" alt="..." />
   <div className="card-body">
-    <h5 className="card-title">{ele.recipe.label}</h5>
+    <h5 className="card-title text-truncate">{ele.recipe.label}</h5>
    
     <Link state={ele} to="/single" className="btn btn-primary">View Recipe</Link>
     {/* <button onClick={()=>handleitem(ele)}>Click me</button> */}

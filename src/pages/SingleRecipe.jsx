@@ -11,7 +11,7 @@ const SingleRecipe = () => {
       
        <div className='row'>
             <div className="col-md-6 d-flex justify-content-center">
-            <img className='img-fluid' src={location.state.recipe.image} alt="" />
+            <img className='img-fluid rounded-4' src={location.state.recipe.image} alt="" />
             </div>
             <div className='col-md-6 '>
             <h2>Title: {location.state.recipe.label}</h2>
