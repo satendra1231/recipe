@@ -7,7 +7,7 @@ const Navbar = () => {
 
     <div >
          
-    <nav  className="navbar navbar-expand-lg bg-warning mb-4 fixed-top">
+    <nav  className="navbar navbar-expand-lg bg-info mb-4 fixed-top">
    
   <div className="container-fluid">
 
