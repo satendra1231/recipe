@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
 
     let inputRef=useRef()
-    const [searchvalue, setsearchvalue] = useState("pizza");
+    const [searchvalue, setsearchvalue] = useState("rajma");
 
   const [allfood, setallfood] = useState([]);
   console.log(allfood)
@@ -29,7 +29,7 @@ const Home = () => {
 
   
   return (
-    <div style={{marginTop:"100px"}} className='row d-flex justify-content-center gap-3'>
+    <div style={{marginTop:"100px"}} className='row d-flex justify-content-center gap-3 '>
         {/* <Navbar/> */}
       
      <div>

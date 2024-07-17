@@ -7,7 +7,7 @@ const SingleRecipe = () => {
     console.log(location.state.recipe)
     console.log(location.state.recipe.healthLabels)
   return (
-    <div style={{marginTop:"100px"}}  >
+    <div style={{marginTop:"100px"}} className='text-white' >
       
        <div className='row'>
             <div className="col-md-6 d-flex justify-content-center">
@@ -17,7 +17,7 @@ const SingleRecipe = () => {
             <h2>Title: {location.state.recipe.label}</h2>
             <h3>Meal Type: {location.state.recipe.mealType}</h3>
 
-            <div className="row d-flex  p-2">
+            <div className="row d-flex  p-2 text-dark">
              <div className="col-md-6 mt-2 ">
                   <div className="row d-flex gap-2 ">
                   <div className="col-5 bg-warning">
