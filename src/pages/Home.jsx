@@ -9,7 +9,7 @@ const Home = () => {
     const [searchvalue, setsearchvalue] = useState("rajma");
 
   const [allfood, setallfood] = useState([]);
-  console.log(allfood)
+  //console.log(allfood)
   let getdata = async()=>{
     let res=await fetch(`https://api.edamam.com/search?q=${searchvalue}&app_id=d46ccc91&app_key=5e0d72415589134a580eb433a84d8a8a`);
     let data=await res.json();
@@ -24,7 +24,7 @@ const Home = () => {
    e.preventDefault()
     let value=inputRef.current.value
     setsearchvalue(value)
-    console.log(value)
+   // console.log(value)
   }
 
   

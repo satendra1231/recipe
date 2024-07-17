@@ -3,9 +3,9 @@ import { Link, useLocation } from 'react-router-dom'
 
 const SingleRecipe = () => {
     let location=useLocation()
-    console.log(location.state)
-    console.log(location.state.recipe)
-    console.log(location.state.recipe.healthLabels)
+    //console.log(location.state)
+    //console.log(location.state.recipe)
+    //console.log(location.state.recipe.healthLabels)
   return (
     <div style={{marginTop:"100px"}} className='text-white' >
       
